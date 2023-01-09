@@ -56,6 +56,28 @@ When you refresh the page, the load balancer will toggle between the two website
 
 ![webpage-2](images/webpage-2.png "webpage-2")
 
+### 4. Mapping my NameCheap Domain to the load balancer.
+
+On hosted zone dashboard of Route 53, I created a hosted zone with the domain name as shown below:
+![hosted-zone](images/hosted-zone.png "hosted-zone")
+
+This created NS and SOA records. The four Value/Route Traffic to input were copied into the custom DNS nameservers of the said domain name on Namecheap as shown:
+
+![custom-DNS-nameservers](images/custom-DNS.png "custom-DNS-nameservers")
+
+Then, on the hosted zone of the domain name on route 53 dashboard, We will click on create record.
+We will fill the form as shown below:
+
+![load-balancer-record](images/balancer-record.png "load-balancer-record")
+
+After creating the record, you can visit the recorded name with www to access the load balancer. 
+
+This is what I have using my domain name.
+
+![with-domain-1](images/with-domain-1.png "with-domain-1")
+
+![with-domain-2](images/with-domain-2.png "with-domain-2")
+
 
 ## Resources
 http://nginx.org/en/linux_packages.html#Ubuntu
