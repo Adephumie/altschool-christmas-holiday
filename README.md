@@ -1,5 +1,7 @@
 # Altschool-christmas-holiday-project
 
+### How to set up an Application Load Balancer behind two EC2 instances on AWS.
+
 This is a documentation for the christmas holiday project I was given at AltSchool.
 
 Instructions:
