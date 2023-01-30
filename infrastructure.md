@@ -72,7 +72,7 @@ Recall that from our previous private-route-table set up, our traffic within the
 ![nat-gateway-routing](images/nat-routing.png "NAT-gateway-routing")
 
 ## Summary
-With these steps, we have been able to configure the infrstructural resources for setting up our load balancer and the EC2 instances in our private network.
+With these steps, we have been able to configure the infrastructural resources for setting up our load balancer and the EC2 instances in our private network.
 
 
 
